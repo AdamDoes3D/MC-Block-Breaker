@@ -29,6 +29,7 @@
         dataUrl: buildUrl + "/MC Block Breaker.data",
         frameworkUrl: buildUrl + "/MC Block Breaker.framework.js",
         codeUrl: buildUrl + "/MC Block Breaker.wasm",
+        symbolsUrl: buildUrl + "/MC Block Breaker.symbols.json",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "MC Block Breaker",
@@ -45,7 +46,7 @@
         container.className = "unity-mobile";
         config.devicePixelRatio = 1;
       } else {
-        canvas.style.width = "960px";
+        canvas.style.width = "800px";
         canvas.style.height = "600px";
       }
       loadingBar.style.display = "block";
